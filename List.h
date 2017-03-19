@@ -17,9 +17,10 @@ class List //begin List definition
      ~List();//destructor
      void insert(int element, int k);//insert element at location k
      void remove(int k);//remove element at location k
+     int get(int k);
      int size();//return the number of elements in the List
-     
-     
+     void display(); // this makes the list empty
+     void clear();
      /** MISSING OPERATIONS */
      //... fill in ....
 
